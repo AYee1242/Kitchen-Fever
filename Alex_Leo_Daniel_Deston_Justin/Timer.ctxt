@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\n\ Acts\ as\ a\ countdown\ from\ a\ desired\ time\ to\ zero\ seconds.\n\ Designed\ to\ show\ when\ something\ can\ be\ used\ again.\ \n\ Multiple\ instances\ can\ be\ created\ as\ long\ as\ the\ trigger\ keys\ are\ different.\ \n\ \n\ @author\ Alexander\ Yee\ with\ help\ from\ Jordan\ Cohen\ \n\ @version\ October\ 2018\n
+comment1.params=time\ r\ g\ b\ width\ height
+comment1.target=Timer(double,\ int,\ int,\ int,\ double,\ double)
+comment1.text=\n\ Creates\ an\ ability\ bar\ with\ full\ customization,\ allowing\ the\ user\ to\ change\ countdown\ time,\ colour\ and\ size.\n\ \n\ @param\ time\ The\ countdown\ time\ of\ the\ ability\ in\ seconds.\ Recommended\ to\ use\ less\ than\ 40\ seconds\n\ @param\ key\ The\ keyboard\ input\ that\ will\ begin\ the\ countdown.\ Must\ be\ one\ character\ or\ a\ single\ input\ \n\ @param\ r\ The\ red\ component\ of\ colour.\ Ranges\ from\ 0\ -\ 255\n\ @param\ g\ The\ green\ component\ of\ colour.\ Ranges\ from\ 0\ -\ 255\n\ @param\ b\ The\ blue\ component\ of\ colour.\ Ranges\ from\ 0\ -\ 255\n\ @param\ width\ The\ width\ of\ the\ ability\ bar\ in\ pixels.\ Recommended\ to\ use\ between\ 1\ and\ 100\ \n\ @param\ height\ The\ height\ of\ the\ ability\ bar\ in\ pixels.\ Recommended\ to\ use\ between\ 30\ and\ 100\ \n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Counts\ in\ real\ time\ and\ checks\ when\ to\ decrease\ the\ ability\ bar\ height.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ \n
+comment3.params=
+comment3.target=void\ countdown()
+comment4.params=
+comment4.target=boolean\ isDone()
+comment4.text=\n\ Indicated\ when\ timer\ is\ finished\n\ @returns\ True\ if\ it\ is\ done\ \n
+numComments=5
