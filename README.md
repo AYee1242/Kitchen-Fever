@@ -13,7 +13,4 @@ When this happens, the chefs will run sporadically until the enture restaurant b
 
 ------------------------------------------------------------------------
 
-PROJECT TITLE: Kitchen Fever
-PURPOSE OF PROJECT: To make a cool simulation
 HOW TO START THIS PROJECT: Run program on Greenfoot.
-AUTHORS: Alexander Yee, Daniel Tan, Zhongchi Li, Justin Huynh and Deston Wong
